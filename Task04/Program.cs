@@ -33,7 +33,39 @@
 
             #endregion
 
-            
+            #region Problem2 
+            //shallow copy 
+            //int[] arr1 = { 5, 10, 15, 20 };
+            //int[] arr2 = { 2, 4, 6, 8 };
+            //Console.WriteLine("Before shallow copy");
+            //Console.WriteLine(arr1[2]); 
+            //Console.WriteLine(arr2[2]);
+            //Console.WriteLine("After shallow copy");
+            //arr2 = arr1;
+            //Console.WriteLine(arr1[2]);
+            //Console.WriteLine(arr2[2]);
+            //Console.WriteLine("After modifying in arr1");
+            //arr1[2] = 100;
+            //Console.WriteLine(arr1[2]);
+            //Console.WriteLine(arr2[2]);
+            //------------------
+            //deep copy
+            //int[] arr1 = { 5, 10, 15, 20 };
+            //int[] arr2 = { 2, 4, 6, 8 };
+            //Console.WriteLine("Before deep copy");
+            //Console.WriteLine(arr1[2]);
+            //Console.WriteLine(arr2[2]);
+            //Console.WriteLine("After deep copy");
+            //arr2 = (int[])arr1.Clone();
+            //Console.WriteLine(arr1[2]);
+            //Console.WriteLine(arr2[2]);
+            //Console.WriteLine("After modifying in arr1");
+            //arr1[2] = 100;
+            //Console.WriteLine(arr1[2]);
+            //Console.WriteLine(arr2[2]); 
+            #endregion
+
+
 
         }
     }

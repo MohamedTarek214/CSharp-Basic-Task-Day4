@@ -2,6 +2,12 @@
  default values in array of string = null
  default values in array of int = 0
  ------------------------------------------------------------------------
+ Question02: What is the difference between Array.Clone() and Array.Copy()? 
+ Array.Clone() => object member function creates a shallow copy of the array
+ Array.Copy() => static method that copies elements from one array to another
+ ------------------------------------------------------------------------
+ 
+
 
 
 
