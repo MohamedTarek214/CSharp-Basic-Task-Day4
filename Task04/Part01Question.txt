@@ -6,8 +6,36 @@
  Array.Clone() => object member function creates a shallow copy of the array
  Array.Copy() => static method that copies elements from one array to another
  ------------------------------------------------------------------------
- 
+ Question03: What is the difference between GetLength() and Length for multi dimensional arrays? 
+ GetLength() => returns the number of elements in a specified dimension of the array
+ Length => returns the total number of elements in all dimensions of the array
+ ------------------------------------------------------------------------
+ Question04: What is the difference between Array.Copy() and Array.ConstrainedCopy()?
+ Both of them do the same thing:
+They take elements from an array and put them into another array.
 
+Array.Copy() => If an exception occurs during copying some elements might have already been copied in other words the destination array ends up in a partially copied state
+Array.ConstrainedCopy() => It ensures that the operation either succeeds completely or the destination array remains unchanged if an exception occurs
+---------------------------------------------------------------------------
+Question05: Why is foreach preferred for read-only operations on arrays?
+foreach is preferred for read-only operations because it is simple and easy to use It goes through 
+all array elements without using an index, making the code safer and easier to read
+----------------------------------------------------------------------------
+Question06: Why is input validation important when working with user inputs?
+Because it guarantees that even if you enter invalid input it won't throw an exception
+----------------------------------------------------------------------------
+Question07: How can you format the output of a 2D array for better readability?
+You can use nested loops to print the rows and columns
+----------------------------------------------------------------------------
+Question08: When should you prefer a switch statement over if-else? 
+use switch when you have multiple conditions to check aginst a single variable
+-----------------------------------------------------------------------------
+Question09: What is the time complexity of Array.Sort()?
+
+
+
+
+ 
 
 
 
