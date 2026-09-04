@@ -30,7 +30,7 @@ You can use nested loops to print the rows and columns
 Question08: When should you prefer a switch statement over if-else? 
 use switch when you have multiple conditions to check aginst a single variable
 -----------------------------------------------------------------------------
-Question09: What is the time complexity of Array.Sort()?
+
 
 
 
