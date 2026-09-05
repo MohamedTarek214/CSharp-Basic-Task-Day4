@@ -2,6 +2,16 @@
 {
     internal class Program
     {
+        enum DayOfWeek
+        {
+            Monday = 1,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday
+        }
         static void Main(string[] args)
         {
             #region Problem1 
@@ -336,6 +346,24 @@
 
             //Console.WriteLine("Sum using foreach: " + SumForeach); 
             #endregion
+
+
+            #region Part02 
+            //Console.Write("Enter a number from 1 to 7: ");
+            //int input = int.Parse(Console.ReadLine());
+
+            //if (input >= 1 && input <= 7)
+            //{
+            //    DayOfWeek day = (DayOfWeek)Enum.Parse(typeof(DayOfWeek), input.ToString());
+
+            //    Console.WriteLine("Day: " + day);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input. Please enter a number from 1 to 7.");
+            //}
+
+            #endregion
         }
-    }
+        }
 }
